@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,13 +19,31 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+background-color: #fefffc;
+}
+
+h1 {
+  font-size: 12vw;
+  font-weight: 900;
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 5vw;
+  font-weight: 600;
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 1.5vw;
+  font-weight: 400;
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 @layer utilities {
