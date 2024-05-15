@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Mid2() {
   return (
-    <div>
+    <div className="relative ">
 
-        <div className="flex flex-row gap-6 -mb-14 ml-2 md:ml-4 lg:ml-8">
+        <div className="translate-y-[20%] flex flex-row gap-6">
         
 <img class="border-8 border-gray-100 rounded-full w-[16vw] h-[16vw] md:w-[20vw] md:h-[20vw] lg:w-[16vw] lg:h-[16vw]" src="/ev1.avif" alt="ev1" />
 <img class="border-8 border-gray-100 rounded-full w-[16vw] h-[16vw] md:w-[20vw] md:h-[20vw] lg:w-[16vw] lg:h-[16vw]" src="/ev1.avif" alt="ev1" />
@@ -13,9 +13,9 @@ export default function Mid2() {
         </div>
         
     <div className="h-screen flex justify-center items-center bg-slate-950 rounded-3xl">
-    <div className="flex flex-col md:flex-row justify-between items-end px-4 md:px-8 lg:px-12">
+    <div className="flex flex-col md:flex-row justify-between px-4 md:px-8 lg:px-12">
       <div className="w-full md:w-2/5 flex md:justify-center md:items-center">
-        <h3 className="text-gray-100">
+        <h3 className="text-gray-100 text-center md:text-start">
           we're committed to leading the way in sustainable transportation. Our
           electric cars combine cutting edge technology with environmental
           consciousness offering an exhilarating and eco-friendly journey on the
@@ -74,7 +74,7 @@ export default function Mid2() {
     </div>
     </div>
 
-    <div className="flex justify-end -mt-24 ml-2 md:ml-4 lg:ml-8">
+    <div className="flex justify-end translate-y-[-20%]">
         
 <img class="border-8 border-gray-100 rounded-full w-2/3" src="/ev3.jpg" alt="ev3" />
 

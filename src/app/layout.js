@@ -11,15 +11,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Jaro:opsz@6..72&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+      </link>
+      </head>
       <body className={inter.className}>
-      <div className="flex flex-row justify-center">
+      <div className="flex flex-row justify-center items-start">
       <h1>FUTURE AUTO</h1>
       </div>
         <div className="px-2 md:px-4 lg:px-8">
         {children}
         </div>
-        <div className="flex flex-row justify-center">
-        <h1>FUTURE AUTO</h1>
+        <div className="flex flex-row justify-center items-end">
+        <div className="footer">FUTURE AUTO</div>
         </div>
         </body>
     </html>

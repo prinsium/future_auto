@@ -7,13 +7,13 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <>
+    <div>
     <Navbar />
     <Homepage />
     <Mid1 />
     <Mid2 />
     <Mid3 />
     <Footer />
-    </>
+    </div>
   );
 }
